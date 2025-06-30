@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestj
 import { PokemonsService } from './pokemons.service';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
-import { PaginationDto } from 'src/shared/dtos/pagination.dto';
+import { PaginationDto } from '../shared/dtos/pagination.dto';
 
 @Controller('pokemons')
 export class PokemonsController {
